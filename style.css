@@ -1,0 +1,75 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Karma", serif;
+}
+
+header {
+    font-size: 32px;
+    margin-bottom: 50px;
+    text-align: auto;
+    margin-top: 20px;
+}
+.food, .mail {
+    margin-left: 70px;
+}
+header> span:hover{
+    background-color:yellowgreen;
+    
+
+}
+.main-container{
+    width: 100%;
+    /* display: inline-block; */
+    justify-content: center;
+    display: flex;
+    flex-wrap: wrap;
+}
+.container{
+    width: 100%;
+    display: inline-block;
+    margin-left: 10px;
+    margin-right: 10px;
+    
+}
+h3{
+    font-size: 25px;
+    font-weight: 500;
+    margin: 8px 10px;
+    text-align-last: center;
+    text-align: justify;
+}
+p{
+    font-size:23px;
+    text-align: justify;
+    text-align-last: center;
+    margin-bottom: 30px;
+}
+.div{
+    padding: 10px;
+}
+.text{
+    text-align: center;
+}
+img{
+    width: 100%;
+    display: inline-block;
+    
+}
+footer{
+    margin-top: 70px;
+    margin-bottom: 50px;;
+    text-align: center;
+    font-size: 25px;
+}
+footer>span:hover {
+    background-color: yellowgreen;
+   
+
+}
+@media screen and (width >= 400px) {
+    .container{
+        flex: 1 1 22%;
+    }
+}
